@@ -5,10 +5,10 @@ class Node
   attr_accessor :data, :left_children, :right_children
   attr_reader :value
 
-  def initialize(data = nil, left_children = nil, right_children = nil)
+  def initialize(data, left_children = nil, right_children = nil)
     @data = data
-    @left_children= left_children
-    @right_childre = right_children
+    @left_children = left_children
+    @right_children = right_children
   end
 
   def to_s
